@@ -1,0 +1,131 @@
+body{
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+}
+
+#headline{
+  color:#ff1a1a;
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-size: 88px;
+}
+
+header{
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://www.habkorea.net/wp-content/uploads/2018/03/Incheon-festa-2018-KPOP-ikon.jpg");
+  background-repeat: no-repeat;
+  height: 1000px;
+  opacity: 0.8;
+}
+
+#happy, #noMore, #recipe, #fortune{
+  background-color: rosybrown;
+  border-radius: 10px;
+  box-shadow: 5px 5px #e3eaa7;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 8px;
+}
+
+#noMore{
+  background-color: #800080;
+  color: #ccff66;
+  box-shadow: 5px 5px #bab86c;
+}
+
+#recipe{
+  background-color: #864747;
+  color: #ffffff;
+  box-shadow: 5px 5px #cccccc;  
+}
+
+#fortune{
+  background-color: red;
+  color: gold;
+  box-shadow: 5px 5px gold;
+}
+
+.mix{
+  font-style: italic;
+  color: #864747
+}
+
+#main{
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 7px;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20%;
+  border: 1px solid black;
+}
+
+p{
+  margin-top: 10px;
+}
+
+
+#showmoney{
+  display: none;
+}
+
+button{
+  background-color: aqua;
+}
+
+h3{
+  font-weight: bold;
+  text-align: center;
+}
+
+#logo{
+  height: 100px;
+  width: 100px;
+  border: 1px black;
+}
+
+#footer{
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  color: #ffff99;
+  background-image: url("https://www.habkorea.net/wp-content/uploads/2018/03/Incheon-festa-2018-KPOP-ikon.jpg");
+}
+
+.row{
+  border-bottom: 1px solid black;
+  margin: 20px;
+}
+
+.block2{
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#menu{
+  text-align: center;
+}
+#dessert{
+  display: none;
+  color: #ff571a;
+}
+
+#secret{
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+}
