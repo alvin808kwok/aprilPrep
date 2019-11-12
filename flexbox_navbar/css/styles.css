@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+a{
+    font-size: 35px;
+    margin: 20px;
+    text-decoration: none;
+    color: #95a5a6;
+    /* color: white;
+    background-color: black; */
+    font-family: 'ZCOOL KuaiLe', cursive;
+    transition: color 0.8s ease-out;
+}
+
+a:hover{
+    color: blue;
+}
+
+i{
+    margin: 10px;
+}
+
+@media screen and (max-width: 920px){
+    nav{
+        justify-content: space-around;
+    }
+    a{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        background-color: darkblue;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color: lightskyblue;
+    }
+}
+
+h1{
+    margin: 10px;
+}
+
+p{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+#skull{
+    width: 50px;
+    height: 50px;
+}
+
+#cartman{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+    box-shadow: 5px 5px;
+    border-radius: 400px;
+}
+
+#jackSparrow{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+    box-shadow: 5px 5px;
+    border-radius: 400px;
+}
+
+#somalianPirates{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+    box-shadow: 5px 5px;
+    border-radius: 400px;
+}
